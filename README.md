@@ -61,6 +61,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+closure is when info from an outer scope is pulled into inner scope then returned to the console.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,9 +83,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Closure is used when the nested function pulls the name into its own scope in order to return the string.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The name will always be the same but the roll will be different most the time.
 c. What is the lexical scope of `newRoll`? 
-
+Since it has the innermost scope it'll be accessible at all levels.
 
 ### Task 3 - Stretch Goals
 
